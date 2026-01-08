@@ -229,8 +229,7 @@ def update_simulation(n, data):
 
     fig_map = go.Figure()
 
-    # 1. LAYER: CALIFORNIA SILHOUETTE (Choropleth)
-    # This renders California as a distinct object and ignores the rest of the US.
+    # 1. CALIFORNIA SILHOUETTE
     fig_map.add_trace(go.Choropleth(
         locations=['CA'],
         z=[1],
