@@ -9,7 +9,7 @@ An automated simulation engine for assessing industrial network vulnerabilities.
 - **Language:** Python 3.10+
 - **Framework:** Plotly Dash (Geospatial Visualization)
 - **Data Processing:** Pandas, NetworkX (Graph Theory Logic)
-- **Data Source:** Simulated SCADA Telemetry & NIST NVD APIs
+- **Data Source:** Simulated SCADA Telemetry & NIST NVD Threat Models
 
 ## Core Functionality
 - **Geospatial Surveillance:** Real-time visualization of critical generation and transmission nodes across the Western Interconnection.
