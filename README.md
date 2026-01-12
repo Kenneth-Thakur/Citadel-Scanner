@@ -1,6 +1,6 @@
 # Citadel: Critical Infrastructure Vulnerability Scanner
 
-An automated engine for assessing industrial network vulnerabilities. Utilizes a geospatial defense pipeline to map high-velocity threat vectors and maintain grid stability through real-time SCADA telemetry analysis and firewall intercepts.
+An automated simulation engine for assessing industrial network vulnerabilities. Utilizes a geospatial defense pipeline to map high-velocity threat vectors and maintain grid stability through real-time SCADA telemetry analysis and firewall intercepts.
 
 ## Dashboard Preview
 ![Dashboard Screenshot](citadel_map.png)
