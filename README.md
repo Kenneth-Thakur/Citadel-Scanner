@@ -18,5 +18,5 @@ An automated engine for assessing industrial network vulnerabilities. Utilizes a
 
 ## How to Run
 1. Clone the repository: `git clone https://github.com/Kenneth-Thakur/Citadel-Scanner.git`
-2. Install dependencies: `pip install dash pandas plotly`
-3. Run the application: `python citadel_final.py`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the application: `python citadel.py`
