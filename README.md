@@ -1,6 +1,6 @@
 # Citadel: Critical Infrastructure Vulnerability Scanner
 
-An automated simulation engine for assessing industrial network vulnerabilities. Utilizes a geospatial defense pipeline to map emerging threat vectors and maintain grid stability through real-time SCADA telemetry analysis and firewall intercepts.
+A geospatial defense engine that simulates 210 SCADA assets, fetches real CVEs from NIST NVD, and prioritizes patching by CVSS severity.
 
 ## Dashboard Preview
 ![Dashboard Screenshot](citadel_map.png)
@@ -12,9 +12,9 @@ An automated simulation engine for assessing industrial network vulnerabilities.
 - **Data Source:** Simulated SCADA Telemetry & NIST NVD Threat Models
 
 ## Core Functionality
-- **Geospatial Surveillance:** Real-time visualization of critical generation and transmission nodes across the Western Interconnection.
+- **Geospatial Surveillance:** Real-time map of 210 SCADA assets across 8 US regions, colored by patch priority.
 - **Threat Neutralization:** A rule-based engine that flags and blocks malicious signatures from known APT groups (e.g., Lazarus, Sandworm).
-- **Dynamic Stability Metrics:** A live status feed that calculates grid integrity percentages based on the frequency of neutralized attacks.
+- **Dynamic Stability Metrics:** Live grid stability tracking that responds to simulated threat events.
 
 ## How to Run
 1. Clone the repository: `git clone https://github.com/Kenneth-Thakur/Citadel-Scanner.git`
